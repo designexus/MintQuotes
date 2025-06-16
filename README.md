@@ -16,6 +16,13 @@ Build your AI-powered MiniApp, unlock new possibilities in decentralized social 
 - 🥉 3rd Prize: 500,000 sats  2 
 - 🎁 Participation Rewards – All successfully deployed MiniApps will receive rewards (details TBA)
 
+# 🛠 Hackathon Tracks
+
+- Nostr Tools: Nip-05 services, Relay tools, Short notes services, plugins and more.  
+- Payment Solutions –  Innovations in Payments: BTC, Lightning, Stablecoins, and Local Currencies; Red packets, tipping, QR pay, content paywalls, merchant tools  
+- AI Interaction – AI bots, content recommenders, smart media MiniApps  
+- Other Innovative Use Cases – Any decentralized application idea is welcome  
+
 # How to participate?
 ✅ Nostr Version:
 - Submit your application to [YakiHonne Smart Widgets GitHub](https://github.com/YakiHonne/agentic-mini-apps)
@@ -50,7 +57,7 @@ The Nostr network is rapidly growing, opening up unprecedented opportunities for
 ### Agentic Mini Apps Hack on Nostr – Round 1 is the first hackathon centered on this emerging format. It combines Nostr + Bitcoin/Lightning payments + AI to explore the next generation of decentralized apps, enriching Nostr with advanced social, payment, and intelligent interaction capabilities—powering the open ecosystem forward.
 # What is a  Mini App?
 
-A MiniApp is a Smart Widgets are interactive graphical components encapsulated as Nostr events, designed for seamless integration into applications. Each widget type serves a specific purpose, with well-defined structures and behaviors to support various use cases.
+A MiniApp as a Smart Widgets are interactive graphical components encapsulated as Nostr events, designed for seamless integration into applications. Each widget type serves a specific purpose, with well-defined structures and behaviors to support various use cases.
 
 Refer to https://yakihonne.com/docs/sw/intro for full documentation.
 
@@ -64,7 +71,8 @@ Refer to https://yakihonne.com/docs/sw/intro for full documentation.
     - Input Field (optional, maximum of one).
     - Buttons (optional, maximum of six).
 - **Use Case:** Ideal for scenarios requiring a combination of visual elements and user inputs, such as forms or dashboards.
-![1744436557264-YAKIHONNES3 (1)](https://github.com/user-attachments/assets/d29e7186-4cbb-457c-921c-8500cdf959ab)
+
+![image](https://yakihonne.s3.ap-east-1.amazonaws.com/65878d2452fe7cb730dad6a94c120df6b32a21916531ee7d61d76f24f5f976aa/files/1744436557264-YAKIHONNES3.jpg)
 
 ### Action Widget
 
@@ -88,7 +96,7 @@ Refer to https://yakihonne.com/docs/sw/intro for full documentation.
     - The iframe is configured to return data to the parent application upon interaction.
 - **Use Case:** Perfect for scenarios requiring data retrieval or feedback from an external tool, such as a configuration interface or a data picker.
 
-![1744437071492-YAKIHONNES3](https://github.com/user-attachments/assets/ea2fce2f-2b4a-4873-bab8-3fef54cede21)
+![image](https://yakihonne.s3.ap-east-1.amazonaws.com/65878d2452fe7cb730dad6a94c120df6b32a21916531ee7d61d76f24f5f976aa/files/1744437071492-YAKIHONNES3.jpg)
 
 ## Technical Notes
 
@@ -127,26 +135,9 @@ Developers will build and deploy via the YakiHonne Programmable Smart Widgets Pr
 	4. The editor will fetch your manifest and validate it 
 	5. Configure any additional settings 
 	6. Publish to Nostr 
-```JSON
-const signEvent = (tempEvent) => {
-  if (hostOrigin) {
-    SWhandler.client.requestEventPublish(tempEvent, hostOrigin);
-  }
-};
 
-// Example of creating and publishing a simple note
-const publishNote = () => {
-  const eventTemplate = {
-    kind: 1, // Regular note
-    content: "Hello from my mini app!",
-    tags: [["t", "miniapp"], ["t", "test"]]
-  };
-  
-  signEvent(eventTemplate);
-};
-```
 
-Side notes: 
+# Side notes: 
 - Smart widget previewer is required by Nostr client to preview all types of smart widgets whether: Action/Tool or even the Basic ones (Please refer to [Smart widget previewer](https://yakihonne.com/docs/sw/smart-widget-previewer) for more details)
 - Smart widget builder is only used to created embedde `Basic` smart widgets types, which out of scope for this hackathon (Please refer to [Smart widget builder](https://yakihonne.com/docs/sw/smart-widget-builder) for more details)
 - Smart widget handler is necessary for the `MiniApps` developers to build and deploy their `Mini-Apps` (Smart widgets from types: Action/Tool) (Please refer to [Smart widget handler](https://yakihonne.com/docs/sw/smart-widget-handler) for more details)
@@ -174,22 +165,17 @@ Side notes:
 📈 High visibility – Your MiniApp lives in nostr events, clients, posts, DMs, and community feeds  
 🌍 Open ecosystem – Supports Lightning / BTC / stablecoins, accessible across clients
 
-# 🛠 Hackathon Tracks
 
-- Nostr Tools: Nip-05 services, Relay tools, Short notes services, plugins and more.  
-- Payment Solutions –  Innovations in Payments: BTC, Lightning, Stablecoins, and Local Currencies; Red packets, tipping, QR pay, content paywalls, merchant tools  
-- AI Interaction – AI bots, content recommenders, smart media MiniApps  
-- Other Innovative Use Cases – Any decentralized application idea is welcome  
 
 # Reference Links 
 - Smart widgets full documentation: https://yakihonne.com/docs/sw/intro
-- Smart widgets builder packager A package for NodeJS to build Nostr Smart Widgets: 
+- Smart widgets builder package a package for NodeJS to build Nostr Smart Widgets: 
 	- https://yakihonne.com/docs/sw/smart-widget-builder
 	- https://www.npmjs.com/package/smart-widget-builder
-- Smart widgets previewer A React component for previewing and interacting with Nostr-based Smart Widgets: 
+- Smart widgets previewer a React component for previewing and interacting with Nostr-based Smart Widgets: 
 	- https://yakihonne.com/docs/sw/smart-widget-previewer
 	- https://www.npmjs.com/package/smart-widget-previewer
-- Smart widgets handler An sdk to communicate with embeded apps on nostr smart widgets:
+- Smart widgets handler an sdk to communicate with embeded apps on nostr smart widgets:
 	- https://yakihonne.com/docs/sw/smart-widget-handler
 	- https://www.npmjs.com/package/smart-widget-handler
 # Quick Tutorials 

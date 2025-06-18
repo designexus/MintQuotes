@@ -72,7 +72,7 @@ Refer to https://yakihonne.com/docs/sw/intro for full documentation.
     - Buttons (optional, maximum of six).
 - **Use Case:** Ideal for scenarios requiring a combination of visual elements and user inputs, such as forms or dashboards.
 
-![image](https://yakihonne.s3.ap-east-1.amazonaws.com/65878d2452fe7cb730dad6a94c120df6b32a21916531ee7d61d76f24f5f976aa/files/1744436557264-YAKIHONNES3.jpg)
+![1744436557264-YAKIHONNES3 (2)](https://github.com/user-attachments/assets/cd20ace8-659d-4a41-9008-319cfd4e2956)
 
 ### Action Widget
 
@@ -96,7 +96,7 @@ Refer to https://yakihonne.com/docs/sw/intro for full documentation.
     - The iframe is configured to return data to the parent application upon interaction.
 - **Use Case:** Perfect for scenarios requiring data retrieval or feedback from an external tool, such as a configuration interface or a data picker.
 
-![image](https://yakihonne.s3.ap-east-1.amazonaws.com/65878d2452fe7cb730dad6a94c120df6b32a21916531ee7d61d76f24f5f976aa/files/1744437071492-YAKIHONNES3.jpg)
+![1744437071492-YAKIHONNES3 (1)](https://github.com/user-attachments/assets/81da2805-2a06-4124-a7f5-f4feb86db250)
 
 ## Technical Notes
 

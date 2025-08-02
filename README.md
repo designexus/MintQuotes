@@ -1,70 +1,68 @@
-# 🌿 MintQuote
+# ＭＩＮＴＬＡＢＳ 🍃
 
-**“MintQuote” is your sovereign, minimalist quoteboard and mobile-first learning app for Bitcoin education — in English, Español, and Naija Pidgin. Built for Nostr. Powered by Bitcoin.**
+A minimalist Bitcoin-native app lab for sovereign tools, powered by Lightning ⚡, Nostr 🧠, and open-source AI 🧬. Built with modern web standards, premium UX, and multilingual-first values.
 
----
-
-## ✨ Overview
-
-MintQuote is an educational, social, and spiritual quote app designed to orange-pill the world — one quote at a time. It blends poetic Bitcoin literacy with real-time Block Height signatures and shareable quote cards, all in a stunning dark UI.
-
-Designed to be ultra-light, sovereign, and mobile-first, MintQuote helps users learn, save, and share Bitcoin-inspired wisdom in 3 languages:  
-- 🇬🇧 English  
-- 🇳🇬 Naija Pidgin  
-- 🇪🇸 Español
-
-Built for the [Yakihonne Agentic Hackathon](https://yakihonne.com), MintQuote uses:
-- **Vercel AI SDK**
-- **V0.dev for UI**
-- **Nostr protocol for social sharing**
-- **Multilingual onboarding and AI quote agent**
+![MIT License](https://img.shields.io/badge/license-MIT-green)
+![Built with Vite](https://img.shields.io/badge/Built%20With-Vite-4467F2)
+![Powered by Nostr](https://img.shields.io/badge/Protocol-Nostr-purple)
+![Lightning Ready](https://img.shields.io/badge/Lightning-ready-orange)
+![Framer Motion](https://img.shields.io/badge/Animation-Framer--Motion-blue)
 
 ---
 
-## 🧠 What It Solves
+## 🔥 Live Preview
 
-Most Bitcoin education apps are complex, technical, or inaccessible to non-English speakers.  
-MintQuote solves for:
-- **Multilingual learning**: Localized experience in English, Pidgin, and Spanish.
-- **Shareability**: Generates minimal quote cards for Nostr + social.
-- **Trust**: Adds Bitcoin block height to every quote for provable timestamps.
-- **Offline-first**: Designed to be light, sovereign, and usable even with low bandwidth.
-- **Simplicity**: Minimal UI with spiritual and educational onboarding flow.
+👉 [mintquote.mintlabs.xyz](https://mintquote.mintlabs.xyz) *(Coming Soon — V0 Deployment via Vercel)*
 
 ---
 
-## 🏗️ Tech Stack
+## 📦 Monorepo Structure
 
-| Tool            | Purpose                              |
-|-----------------|--------------------------------------|
-| Vercel AI SDK   | Quote generation & local AI agent    |
-| V0.dev UI       | Mobile-first frontend, deployed to Vercel |
-| Convex / Upstash KV | Persistent storage for quotes, tokens |
-| Nostr SDK       | Share quotes as signed notes         |
-| TailwindCSS     | Styling and responsiveness           |
-| Framer Motion   | Transitions and delight              |
-| Wool Icons      | Minimal, expressive iconography      |
+This is a full-stack, modular **Next.js + Vite monorepo** optimized for Vercel deployments and future Yakihonne widget support.
 
----
-
-## 🧩 Features
-
-- 🪷 **MintQuote Generator** – AI-augmented quote cards with real-time block height stamp
-- ⚡ **Share to Nostr** – Tap to zap or post
-- 🪪 **Onboarding Screens** – Explains Bitcoin, privacy, and Nostr in clear language
-- 🌍 **Multilingual UI** – Language toggle across English, Español, and Pidgin
-- 📱 **Mobile-First PWA** – Works beautifully on all devices
-- 🌑 **Pitch Black Theme** – No white light, only mint green, forest, orange, and paper-white cardboards
-- 🧠 **Agent-based AI** – Yakihonne-compatible agent available in smart widget JSON
-- 🧾 **Block-Stamped Cards** – Every quote shows the current Bitcoin block height
-- 🔲 **Card Signature** – Discreet MintQuote logo badge on shared quotes
+| Folder              | Description                                    |
+|---------------------|------------------------------------------------|
+| `apps/mintquote`    | Main quote experience: UI, tipping, filters    |
+| `apps/mint`         | AI-powered Mintbot chat (Voice + Nostr)        |
+| `packages/ui`       | Shared UI components, tailwind themes, icons   |
+| `public/assets`     | Logos, avatars: Lotus SVG + Mintbot mascot     |
+| `yakihonne.json`    | Smart widget schema & metadata (WIP)           |
 
 ---
 
-## 🔧 Local Development
+## 🧠 About MintQuote
+
+**MintQuote** is a multilingual Bitcoin quote app where users can:
+
+- 🧾 View 21 daily collectible Bitcoin quotes (swipeable, stacked UI)
+- ⚡ Tip via Lightning (WebLN, NWC, QR)
+- 🧠 Chat with Mintbot to explain any quote
+- 🌍 Auto-translate content by language/IP
+- 🧵 See Nostr threads + linked quotes
+- 🔢 See live block height + Bitcoin data
+- 🧠 Earn sats daily with streaks
+
+Powered by: `Next.js`, `Tailwind`, `Framer Motion`, `Lucide`, `Nostr`, `Yakihonne`, and `Lightning`.
+
+---
+
+## 🧩 Smart Widget Ready
+
+This project is Yakihonne-compatible and future-proofed to run inside any smart widget container, with:
+
+- Offline-ready PWA
+- Minimal voice interaction
+- JSON manifest support
+- Nostr pubkey interactions
+- Theme switching (light/dark)
+
+---
+
+## 🖼 Preview
+
+> Light and dark previews coming soon!
 
 ```bash
-git clone https://github.com/yourname/MintQuote.git
-cd MintQuote
-pnpm install
-pnpm dev
+📸 Screenshots will go here: /screenshots
+🧃 Logo: /public/assets/lotus-logo.svg
+🤖 Mintbot: /public/assets/mintbot.png

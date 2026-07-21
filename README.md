@@ -1,4 +1,4 @@
-# 🍃 MintQuotes
+#  MintQuotes
 
 ## The Open Bitcoin Knowledge Layer
 
